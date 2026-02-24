@@ -2,7 +2,7 @@ const TelegramBot = require("node-telegram-bot-api");
 const fetch = require("node-fetch");
 
 const BOT_TOKEN     = process.env.BOT_TOKEN     || "8753253331:AAGOZe58YJnHwjJU4i2Gf5aAPwT2rPIuqEU";
-const ANTHROPIC_KEY = process.env.ANTHROPIC_KEY || "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";
+const ANTHROPIC_KEY = process.env.ANTHROPIC_KEY || "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";
 const WEBAPP_URL    = process.env.WEBAPP_URL    || "https://nicepolo.github.io/shenhuiai";
 
 const bot = new TelegramBot(BOT_TOKEN, { polling: true });
