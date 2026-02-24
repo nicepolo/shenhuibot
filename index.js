@@ -2,7 +2,7 @@ const TelegramBot = require("node-telegram-bot-api");
 const fetch = require("node-fetch");
 
 const BOT_TOKEN = process.env.BOT_TOKEN || "8753253331:AAGOZe58YJnHwjJU4i2Gf5aAPwT2rPIuqEU";
-const GEMINI_KEY = process.env.GEMINI_KEY || "AIzaSyAIwRIpbQTu4Jhp0HoEBMK-GDxeqlBmCY4";
+const GEMINI_KEY = process.env.GEMINI_KEY || "AIzaSyCTw1olGEPCWZCpgVFRXsgFvwIvTMlSqPI";
 
 const bot = new TelegramBot(BOT_TOKEN, { polling: true });
 
